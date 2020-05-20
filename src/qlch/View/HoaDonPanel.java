@@ -337,7 +337,7 @@ public class HoaDonPanel extends javax.swing.JPanel {
         jpTimkiem2.setLayout(jpTimkiem2Layout);
         jpTimkiem2Layout.setHorizontalGroup(
             jpTimkiem2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jpTimkiem2Layout.createSequentialGroup()
+            .addGroup(jpTimkiem2Layout.createSequentialGroup()
                 .addGap(0, 0, Short.MAX_VALUE)
                 .addComponent(jxDenngay, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
