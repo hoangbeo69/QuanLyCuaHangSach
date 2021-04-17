@@ -1,8 +1,161 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f40c99c-aa57-4d09-a966-d02a09ecd961" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="5f40c99c-aa57-4d09-a966-d02a09ecd961" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScreenShot/Cuahang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScreenShot/Kho.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScreenShot/SanPham.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScreenShot/TaiKhoan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ScreenShot/ThongKe.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/QuanLyCuaHang.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/QuanLyCuaHang.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/built-jar.properties" beforeDir="false" afterPath="$PROJECT_DIR$/build/built-jar.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/Bean/DanhMucBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/Bean/DanhMucBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/Controller/ChuyenManHinhController$LabelEvent.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/Controller/ChuyenManHinhController$LabelEvent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/Controller/ChuyenManHinhController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/Controller/ChuyenManHinhController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/Dao/DBConnect.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/Dao/DBConnect.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/Dao/DBOoperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/Dao/DBOoperation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/FormDangNhap/FormDangNhap$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/FormDangNhap/FormDangNhap$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/FormDangNhap/FormDangNhap$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/FormDangNhap/FormDangNhap$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/FormDangNhap/FormDangNhap$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/FormDangNhap/FormDangNhap$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/FormDangNhap/FormDangNhap$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/FormDangNhap/FormDangNhap$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/FormDangNhap/FormDangNhap$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/FormDangNhap/FormDangNhap$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/FormDangNhap/FormDangNhap.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/FormDangNhap/FormDangNhap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/Main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/Main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/Model/CuaHang/DanhSachHang/HoaDonHT.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/Model/CuaHang/DanhSachHang/HoaDonHT.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/Model/CuaHang/DanhSachHang/HoaDonHTDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/Model/CuaHang/DanhSachHang/HoaDonHTDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/Model/CuaHang/DanhSachHang/SanPham.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/Model/CuaHang/DanhSachHang/SanPhamDB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/Model/CuaHang/DanhSachHang/SanPhamHT.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/Model/CuaHang/DanhSachHang/SanPhamHT.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/Model/CuaHang/DanhSachHang/SanPhamHTDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/Model/CuaHang/DanhSachHang/SanPhamHTDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/Model/HoaDon/ChiTietHD$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/Model/HoaDon/ChiTietHD.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/Model/HoaDon/ChiTietHD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/Model/HoaDon/ChiTietHoaDon.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/Model/HoaDon/ChiTietHoaDon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/Model/HoaDon/ChiTietHoaDonDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/Model/HoaDon/ChiTietHoaDonDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/Model/HoaDon/HoaDon.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/Model/HoaDon/HoaDon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/Model/HoaDon/HoaDonDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/Model/HoaDon/HoaDonDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/Model/Kho/PhieuNhapDB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/Model/PhieuNhap/ChiTietPN.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/Model/PhieuNhap/ChiTietPN.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/Model/PhieuNhap/ChiTietPNDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/Model/PhieuNhap/ChiTietPNDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/Model/PhieuNhap/ChiTietPhieuNhap$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/Model/PhieuNhap/ChiTietPhieuNhap.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/Model/PhieuNhap/ChiTietPhieuNhap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/Model/PhieuNhap/PhieuNhap.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/Model/PhieuNhap/PhieuNhap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/Model/PhieuNhap/PhieuNhapDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/Model/PhieuNhap/PhieuNhapDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/Model/Sach/Sach.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/Model/Sach/Sach.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/Model/Sach/SachDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/Model/Sach/SachDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/Model/Sach/SuaSach$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/Model/Sach/SuaSach$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/Model/Sach/SuaSach$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/Model/Sach/SuaSach$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/Model/Sach/SuaSach$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/Model/Sach/SuaSach$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/Model/Sach/SuaSach$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/Model/Sach/SuaSach$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/Model/Sach/SuaSach$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/Model/Sach/SuaSach$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/Model/Sach/SuaSach.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/Model/Sach/SuaSach.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/Model/Sach/ThemSach$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/Model/Sach/ThemSach$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/Model/Sach/ThemSach$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/Model/Sach/ThemSach$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/Model/Sach/ThemSach$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/Model/Sach/ThemSach$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/Model/Sach/ThemSach$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/Model/Sach/ThemSach$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/Model/Sach/ThemSach$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/Model/Sach/ThemSach$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/Model/Sach/ThemSach.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/Model/Sach/ThemSach.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/Model/SanPham/SanPham.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/Model/SanPham/SanPham.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/Model/SanPham/SanPhamDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/Model/SanPham/SanPhamDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/Model/TaiKhoan/DoiMatKhau$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/Model/TaiKhoan/DoiMatKhau$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/Model/TaiKhoan/DoiMatKhau$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/Model/TaiKhoan/DoiMatKhau$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/Model/TaiKhoan/DoiMatKhau$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/Model/TaiKhoan/DoiMatKhau$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/Model/TaiKhoan/DoiMatKhau$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/Model/TaiKhoan/DoiMatKhau.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/Model/TaiKhoan/DoiMatKhau.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/Model/TaiKhoan/SuaTaiKhoan$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/Model/TaiKhoan/SuaTaiKhoan$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/Model/TaiKhoan/SuaTaiKhoan$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/Model/TaiKhoan/SuaTaiKhoan$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/Model/TaiKhoan/SuaTaiKhoan$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/Model/TaiKhoan/SuaTaiKhoan$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/Model/TaiKhoan/SuaTaiKhoan$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/Model/TaiKhoan/SuaTaiKhoan$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/Model/TaiKhoan/SuaTaiKhoan$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/Model/TaiKhoan/SuaTaiKhoan$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/Model/TaiKhoan/SuaTaiKhoan$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/Model/TaiKhoan/SuaTaiKhoan$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/Model/TaiKhoan/SuaTaiKhoan$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/Model/TaiKhoan/SuaTaiKhoan$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/Model/TaiKhoan/SuaTaiKhoan.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/Model/TaiKhoan/SuaTaiKhoan.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/Model/TaiKhoan/TaiKhoan.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/Model/TaiKhoan/TaiKhoan.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/Model/TaiKhoan/TaiKhoanDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/Model/TaiKhoan/TaiKhoanDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/Model/TaiKhoan/ThemTaiKhoan$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/Model/TaiKhoan/ThemTaiKhoan$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/Model/TaiKhoan/ThemTaiKhoan$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/Model/TaiKhoan/ThemTaiKhoan$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/Model/TaiKhoan/ThemTaiKhoan$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/Model/TaiKhoan/ThemTaiKhoan$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/Model/TaiKhoan/ThemTaiKhoan$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/Model/TaiKhoan/ThemTaiKhoan$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/Model/TaiKhoan/ThemTaiKhoan$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/Model/TaiKhoan/ThemTaiKhoan$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/Model/TaiKhoan/ThemTaiKhoan$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/Model/TaiKhoan/ThemTaiKhoan$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/Model/TaiKhoan/ThemTaiKhoan$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/Model/TaiKhoan/ThemTaiKhoan$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/Model/TaiKhoan/ThemTaiKhoan$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/Model/TaiKhoan/ThemTaiKhoan$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/Model/TaiKhoan/ThemTaiKhoan$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/Model/TaiKhoan/ThemTaiKhoan$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/Model/TaiKhoan/ThemTaiKhoan.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/Model/TaiKhoan/ThemTaiKhoan.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/Model/ThongKe/DoanhThuThongKe.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/Model/ThongKe/DoanhThuThongKe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/Model/ThongKe/HoaDonThongKe.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/Model/ThongKe/HoaDonThongKe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/Model/ThongKe/ThongKe.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/Model/ThongKe/ThongKe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/Model/ThongKe/ThongKeDB.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/Model/ThongKe/ThongKeDB.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/View/CuaHangPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/View/CuaHangPanel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/View/CuaHangPanel$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/View/CuaHangPanel$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/View/CuaHangPanel$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/View/CuaHangPanel$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/View/CuaHangPanel$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/View/CuaHangPanel$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/View/CuaHangPanel$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/View/CuaHangPanel$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/View/CuaHangPanel$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/View/CuaHangPanel$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/View/CuaHangPanel$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/View/CuaHangPanel$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/View/CuaHangPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/View/CuaHangPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/View/DSSach$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/View/DSSach$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/View/DSSach$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/View/DSSach$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/View/DSSach$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/View/DSSach$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/View/DSSach$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/View/DSSach$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/View/DSSach$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/View/DSSach$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/View/DSSach$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/View/DSSach$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/View/DSSach$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/View/DSSach$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/View/DSSach$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/View/DSSach$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/View/DSSach$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/View/DSSach$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/View/DSSach$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/View/DSSach$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/View/DSSach.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/View/DSSach.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/View/HoaDonPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/View/HoaDonPanel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/View/HoaDonPanel$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/View/HoaDonPanel$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/View/HoaDonPanel$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/View/HoaDonPanel$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/View/HoaDonPanel$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/View/HoaDonPanel$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/View/HoaDonPanel$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/View/HoaDonPanel$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/View/HoaDonPanel$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/View/HoaDonPanel$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/View/HoaDonPanel$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/View/HoaDonPanel$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/View/HoaDonPanel$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/View/HoaDonPanel$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/View/HoaDonPanel$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/View/HoaDonPanel$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/View/HoaDonPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/View/HoaDonPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/View/KhoPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/View/KhoPanel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/View/KhoPanel$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/View/KhoPanel$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/View/KhoPanel$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/View/KhoPanel$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/View/KhoPanel$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/View/KhoPanel$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/View/KhoPanel$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/View/KhoPanel$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/View/KhoPanel$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/View/KhoPanel$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/View/KhoPanel$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/View/KhoPanel$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/View/KhoPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/View/KhoPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/View/MainControl$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/View/MainControl$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/View/MainControl$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/View/MainControl$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/View/MainControl$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/View/MainControl$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/View/MainControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/View/MainControl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/View/PhieuNhapPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/View/PhieuNhapPanel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/View/PhieuNhapPanel$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/View/PhieuNhapPanel$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/View/PhieuNhapPanel$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/View/PhieuNhapPanel$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/View/PhieuNhapPanel$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/View/PhieuNhapPanel$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/View/PhieuNhapPanel$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/View/PhieuNhapPanel$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/View/PhieuNhapPanel$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/View/PhieuNhapPanel$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/View/PhieuNhapPanel$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/View/PhieuNhapPanel$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/View/PhieuNhapPanel$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/View/PhieuNhapPanel$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/View/PhieuNhapPanel$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/View/PhieuNhapPanel$9.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/View/PhieuNhapPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/View/PhieuNhapPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/View/TaiKhoanPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/View/TaiKhoanPanel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/View/TaiKhoanPanel$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/View/TaiKhoanPanel$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/View/TaiKhoanPanel$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/View/TaiKhoanPanel$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/View/TaiKhoanPanel$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/View/TaiKhoanPanel$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/View/TaiKhoanPanel$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/View/TaiKhoanPanel$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/View/TaiKhoanPanel$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/View/TaiKhoanPanel$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/View/TaiKhoanPanel$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/View/TaiKhoanPanel$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/View/TaiKhoanPanel$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/View/TaiKhoanPanel$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/View/TaiKhoanPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/View/TaiKhoanPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/View/ThongKePanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/View/ThongKePanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/qlch/View/TrangChuPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/qlch/View/TrangChuPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/build-impl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/build-impl.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/genfiles.properties" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/genfiles.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/private/private.properties" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/private/private.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/private/private.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/qlch/Dao/DBConnect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/qlch/Dao/DBConnect.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,12 +194,16 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
     <option name="height" value="728" />
   </component>
+  <component name="ProjectId" id="1n6B3r8UvAvNrR1lBSU9rpA9tJ7" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -67,48 +224,67 @@
       <pane id="Scope" />
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW" value="false" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH" value="441" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Lib/swingx-all-1.6.4.jar!/" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Java Web/JSP-Servlet-Example-Demo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.FormDangNhap">
     <configuration name="FormDangNhap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="qlch.FormDangNhap.FormDangNhap" />
       <module name="QuanLyCuaHang" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="qlch.FormDangNhap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="qlch.Main.Main" />
+      <module name="QuanLyCuaHang" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Unnamed" />
+      <item itemvalue="Application.FormDangNhap" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.FormDangNhap" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -120,6 +296,8 @@
       <option name="presentableId" value="Default" />
       <updated>1570525423361</updated>
       <workItem from="1570525435696" duration="751000" />
+      <workItem from="1610700465600" duration="1095000" />
+      <workItem from="1618635061485" duration="1189000" />
     </task>
     <servers />
   </component>
@@ -160,7 +338,19 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/qlch/FormDangNhap/FormDangNhap.form">
