@@ -3,17 +3,13 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/E:/Project%20Java/QuanLyCuaHangSach/src/qlch/View/PhieuNhapPanel.java</file>
-            <file>file:/E:/Project%20Java/QuanLyCuaHangSach/src/qlch/View/KhoPanel.java</file>
-            <file>file:/E:/Project%20Java/QuanLyCuaHangSach/src/qlch/View/CuaHangPanel.java</file>
-            <file>file:/E:/Project%20Java/QuanLyCuaHangSach/src/qlch/Main/Main.java</file>
-            <file>file:/E:/Project%20Java/QuanLyCuaHangSach/src/qlch/View/TaiKhoanPanel.java</file>
-            <file>file:/E:/Project%20Java/QuanLyCuaHangSach/src/qlch/View/HoaDonPanel.java</file>
-            <file>file:/E:/Project%20Java/QuanLyCuaHangSach/src/qlch/Dao/DBConnect.java</file>
-            <file>file:/E:/Project%20Java/QuanLyCuaHangSach/src/qlch/Model/TaiKhoan/DoiMatKhau.java</file>
             <file>file:/E:/Project%20Java/QuanLyCuaHangSach/src/qlch/Model/TaiKhoan/ThemTaiKhoan.java</file>
+            <file>file:/E:/Project%20Java/QuanLyCuaHangSach/src/qlch/Model/TaiKhoan/TaiKhoanDB.java</file>
+            <file>file:/E:/Project%20Java/QuanLyCuaHangSach/src/qlch/View/CuaHangPanel.java</file>
+            <file>file:/E:/Project%20Java/QuanLyCuaHangSach/src/qlch/View/HoaDonPanel.java</file>
+            <file>file:/E:/Project%20Java/QuanLyCuaHangSach/src/qlch/Model/TaiKhoan/SuaTaiKhoan.java</file>
             <file>file:/E:/Project%20Java/QuanLyCuaHangSach/src/qlch/View/TrangChuPanel.java</file>
-            <file>file:/E:/Project%20Java/QuanLyCuaHangSach/src/qlch/View/MainControl.java</file>
+            <file>file:/E:/Project%20Java/QuanLyCuaHangSach/src/qlch/Model/TaiKhoan/TaiKhoan.java</file>
             <file>file:/E:/Project%20Java/QuanLyCuaHangSach/src/qlch/View/DSSach.java</file>
             <file>file:/E:/Project%20Java/QuanLyCuaHangSach/src/qlch/View/ThongKePanel.java</file>
         </group>
