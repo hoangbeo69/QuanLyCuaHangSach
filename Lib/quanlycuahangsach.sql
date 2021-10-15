@@ -94,12 +94,12 @@ cREATE TABLE IF NOT EXISTS `nhanvien` (
   `SDT` VARCHAR(15)  NOT NULL,
   PRIMARY KEY (`MaNV`))
 ENGINE = InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
-INSERT INTO `quanlycuahangsach`.`nhanvien` (`MaNV`, `TenNV`, `GioiTinh`, `NgaySinh`, `DiaChi`, `SDT`) VALUES ('NV01', 'Trần Bảo Trọng', 'Nam', '12/14/1995', 'Hà Giang', '145647854');
-INSERT INTO `quanlycuahangsach`.`nhanvien` (`MaNV`, `TenNV`, `GioiTinh`, `NgaySinh`, `DiaChi`, `SDT`) VALUES ('NV02', 'Lê Thùy Dương', 'Nữ', '5/12/1997', 'Hà Nội', '1262368193');
-INSERT INTO `quanlycuahangsach`.`nhanvien` (`MaNV`, `TenNV`, `GioiTinh`, `NgaySinh`, `DiaChi`, `SDT`) VALUES ('NV03', 'Trần Phương Thảo', 'Nam', '3/30/1996', 'Quảng Ninh', '366227168');
-INSERT INTO `quanlycuahangsach`.`nhanvien` (`MaNV`, `TenNV`, `GioiTinh`, `NgaySinh`, `DiaChi`, `SDT`) VALUES ('NV04', 'Lê Trương An', 'Nam', '11/20/1995', 'Ninh Bình', '981578293');
-INSERT INTO `quanlycuahangsach`.`nhanvien` (`MaNV`, `TenNV`, `GioiTinh`, `NgaySinh`, `DiaChi`, `SDT`) VALUES ('NV05', 'Phạm Thị Hương Giang', 'Nữ', '2/22/1999', 'Hòa Bình', '977232173');
-INSERT INTO `quanlycuahangsach`.`nhanvien` (`MaNV`, `TenNV`, `GioiTinh`, `NgaySinh`, `DiaChi`, `SDT`) VALUES ('NV06', 'Lê Thùy Dung', 'Nữ', '5/12/1997', 'Hà Nội', '805126735');
+INSERT INTO `quanlycuahangsach`.`nhanvien` (`MaNV`, `TenNV`, `GioiTinh`, `NgaySinh`, `DiaChi`, `SDT`) VALUES ('NV01', 'Trần Bảo Trọng', 'Nam', '1995/12/14', 'Hà Giang', '145647854');
+INSERT INTO `quanlycuahangsach`.`nhanvien` (`MaNV`, `TenNV`, `GioiTinh`, `NgaySinh`, `DiaChi`, `SDT`) VALUES ('NV02', 'Lê Thùy Dương', 'Nữ', '1997/05/12', 'Hà Nội', '1262368193');
+INSERT INTO `quanlycuahangsach`.`nhanvien` (`MaNV`, `TenNV`, `GioiTinh`, `NgaySinh`, `DiaChi`, `SDT`) VALUES ('NV03', 'Trần Phương Thảo', 'Nam', '1996/03/30', 'Quảng Ninh', '366227168');
+INSERT INTO `quanlycuahangsach`.`nhanvien` (`MaNV`, `TenNV`, `GioiTinh`, `NgaySinh`, `DiaChi`, `SDT`) VALUES ('NV04', 'Lê Trương An', 'Nam', '1995/11/20', 'Ninh Bình', '981578293');
+INSERT INTO `quanlycuahangsach`.`nhanvien` (`MaNV`, `TenNV`, `GioiTinh`, `NgaySinh`, `DiaChi`, `SDT`) VALUES ('NV05', 'Phạm Thị Hương Giang', 'Nữ', '1999/02/22', 'Hòa Bình', '977232173');
+INSERT INTO `quanlycuahangsach`.`nhanvien` (`MaNV`, `TenNV`, `GioiTinh`, `NgaySinh`, `DiaChi`, `SDT`) VALUES ('NV06', 'Lê Thùy Dung', 'Nữ', '1997/12/05', 'Hà Nội', '805126735');
 
 -- Tạo ràng buộc cho bảng nhanvien
 -- Tạo bảng khachhang
@@ -151,7 +151,7 @@ CREATE TABLE IF NOT EXISTS `hoadon` (
    PRIMARY KEY (`MaHD`)
 )
 ENGINE = InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
-INSERT INTO `quanlycuahangsach`.`hoadon` (`MaHD`, `MaNV`, `MaKH`, `NgayLap`, `GioLap`, `TongTien`) VALUES ('HD11', 'NV01', 'KH22', '2019/04/25', '13:20:37', '75700000');
+INSERT INTO `quanlycuahangsach`.`hoadon` (`MaHD`, `MaNV`, `MaKH`, `NgayLap`, `GioLap`, `TongTien`) VALUES ('HD11', 'NV01', 'KH22', '2019/04/25 ', '13:20:37', '75700000');
 INSERT INTO `quanlycuahangsach`.`hoadon` (`MaHD`, `MaNV`, `MaKH`, `NgayLap`, `GioLap`, `TongTien`) VALUES ('HD12', 'NV01', 'KH19', '2019/04/26', '17:59:11', '84000000');
 INSERT INTO `quanlycuahangsach`.`hoadon` (`MaHD`, `MaNV`, `MaKH`, `NgayLap`, `GioLap`, `TongTien`) VALUES ('HD13', 'NV01', 'KH14', '2019/04/26', '18:58:06', '101200000');
 INSERT INTO `quanlycuahangsach`.`hoadon` (`MaHD`, `MaNV`, `MaKH`, `NgayLap`, `GioLap`, `TongTien`) VALUES ('HD14', 'NV02', 'KH19', '2019/05/01', '14:14:27', '975100000');

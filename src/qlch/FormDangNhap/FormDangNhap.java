@@ -108,7 +108,7 @@ public class FormDangNhap extends javax.swing.JFrame {
         jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 250, 320, 30));
 
         lbExit.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        lbExit.setIcon(new javax.swing.ImageIcon("C:\\Users\\HiHi\\Documents\\NetBeansProjects\\QuanLyCuaHang\\src\\qlch\\Image\\GiaoDien\\multiply_30px.png")); // NOI18N
+        lbExit.setIcon(new javax.swing.ImageIcon(getClass().getResource("/qlch/Image/GiaoDien/multiply_30px.png"))); // NOI18N
         lbExit.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 lbExitMouseClicked(evt);
@@ -117,7 +117,7 @@ public class FormDangNhap extends javax.swing.JFrame {
         jPanel1.add(lbExit, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 10, 40, 40));
 
         lbMinimize.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        lbMinimize.setIcon(new javax.swing.ImageIcon("C:\\Users\\HiHi\\Documents\\NetBeansProjects\\QuanLyCuaHang\\src\\qlch\\Image\\GiaoDien\\minus_math_30px.png")); // NOI18N
+        lbMinimize.setIcon(new javax.swing.ImageIcon(getClass().getResource("/qlch/Image/GiaoDien/minus_math_30px.png"))); // NOI18N
         lbMinimize.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 lbMinimizeMouseClicked(evt);
@@ -145,7 +145,7 @@ public class FormDangNhap extends javax.swing.JFrame {
         jPanel1.add(jlbThongbao, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 360, 300, -1));
 
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\HiHi\\Documents\\NetBeansProjects\\QuanLyCuaHang\\src\\qlch\\Image\\GiaoDien\\2608782.jpg")); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/qlch/Image/GiaoDien/2608782.jpg"))); // NOI18N
         jLabel2.setText("jLabel2");
         jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(-9, 6, 850, 550));
 
