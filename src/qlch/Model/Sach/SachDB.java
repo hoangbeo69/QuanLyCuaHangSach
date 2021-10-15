@@ -124,8 +124,9 @@ public class SachDB {
 
     public void themSach(String url, String kichthuoc, String masach, String sotrang, String nhaxb, String tacgia, String tensach) throws SQLException {
         conn = DBConnect.getConnection();
+        String query = null;
         try {
-            String query = "insert into sach values ( '" + masach + "','"
+             query = "insert into sach values ( '" + masach + "','"
                     + tensach + "','"
                     + tacgia + "','"
                     + nhaxb + "','"
@@ -141,7 +142,7 @@ public class SachDB {
             statement = conn.prepareStatement(query2);
             statement.execute();
         } catch (SQLException ex) {
-            JOptionPane.showMessageDialog(null, ex.toString() + "\n error coming from returning all customer DB Operation");
+            JOptionPane.showMessageDialog(null, ex.toString() + "\n error coming from returning all customer DB Operation"+query);
         } finally {
             conn.close();
             statement.close();

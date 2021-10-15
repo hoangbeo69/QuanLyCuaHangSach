@@ -342,7 +342,7 @@ public class ThemSach extends javax.swing.JFrame {
             String tacgia = ttfTacgia.getText();
             String tensach = ttfTensach.getText();
             try {
-                db.themSach(url,kichthuoc,masach,nhaxb,sotrang,tacgia,tensach);
+                db.themSach(url,kichthuoc,masach,sotrang,nhaxb,tacgia,tensach);
             } catch (Exception e) {
                 JOptionPane.showMessageDialog(null,"Thêm Sách Thất bại");
             }
