@@ -19,7 +19,7 @@ public class SuaSach extends javax.swing.JFrame {
      */
     public SuaSach() {
         initComponents();
-        setSize(610, 391);
+        setSize(624, 450);
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         setLocationRelativeTo(null);
         setResizable(false);
@@ -56,7 +56,7 @@ public class SuaSach extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jPanel9.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Mã Sách", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 14), new java.awt.Color(0, 0, 0))); // NOI18N
+        jPanel9.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Mã Sách", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 14))); // NOI18N
 
         ttfMaSach.setFont(new java.awt.Font("Arial", 1, 14)); // NOI18N
 
@@ -76,7 +76,7 @@ public class SuaSach extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jPanel11.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Nhà Xuất Bản", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 14), new java.awt.Color(0, 0, 0))); // NOI18N
+        jPanel11.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Nhà Xuất Bản", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 14))); // NOI18N
 
         ttfNhaxuatban.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         ttfNhaxuatban.addActionListener(new java.awt.event.ActionListener() {
@@ -101,7 +101,7 @@ public class SuaSach extends javax.swing.JFrame {
                 .addGap(0, 12, Short.MAX_VALUE))
         );
 
-        jPanel8.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Tên Sách", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 14), new java.awt.Color(0, 0, 0))); // NOI18N
+        jPanel8.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Tên Sách", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 14))); // NOI18N
 
         ttfTensach.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         ttfTensach.addActionListener(new java.awt.event.ActionListener() {
@@ -126,7 +126,7 @@ public class SuaSach extends javax.swing.JFrame {
                 .addGap(0, 8, Short.MAX_VALUE))
         );
 
-        jPanel12.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Kích Thước", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 14), new java.awt.Color(0, 0, 0))); // NOI18N
+        jPanel12.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Kích Thước", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 14))); // NOI18N
 
         ttfKichthuoc.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
 
@@ -146,7 +146,7 @@ public class SuaSach extends javax.swing.JFrame {
                 .addGap(0, 12, Short.MAX_VALUE))
         );
 
-        jPanel13.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Số Trang", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 14), new java.awt.Color(0, 0, 0))); // NOI18N
+        jPanel13.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Số Trang", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 14))); // NOI18N
 
         ttfSotrang.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
 
@@ -166,7 +166,7 @@ public class SuaSach extends javax.swing.JFrame {
                 .addGap(0, 10, Short.MAX_VALUE))
         );
 
-        jPanel10.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Tác Giả", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 14), new java.awt.Color(0, 0, 0))); // NOI18N
+        jPanel10.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Tác Giả", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 14))); // NOI18N
 
         ttfTacgia.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
 
@@ -204,7 +204,9 @@ public class SuaSach extends javax.swing.JFrame {
             }
         });
 
-        jPanel14.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "File Ảnh", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 14), new java.awt.Color(0, 0, 0))); // NOI18N
+        jPanel14.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "File Ảnh", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Arial", 0, 14))); // NOI18N
+        jPanel14.setMaximumSize(new java.awt.Dimension(227, 57));
+        jPanel14.setMinimumSize(new java.awt.Dimension(227, 57));
 
         jbThemanh.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
         jbThemanh.setText("Ảnh");
@@ -215,6 +217,12 @@ public class SuaSach extends javax.swing.JFrame {
         });
 
         ttfThemanh.setFont(new java.awt.Font("Arial", 0, 14)); // NOI18N
+        ttfThemanh.setMaximumSize(new java.awt.Dimension(6, 23));
+        ttfThemanh.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ttfThemanhActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel14Layout = new javax.swing.GroupLayout(jPanel14);
         jPanel14.setLayout(jPanel14Layout);
@@ -222,8 +230,8 @@ public class SuaSach extends javax.swing.JFrame {
             jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel14Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(ttfThemanh, javax.swing.GroupLayout.DEFAULT_SIZE, 131, Short.MAX_VALUE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(ttfThemanh, javax.swing.GroupLayout.PREFERRED_SIZE, 131, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jbThemanh, javax.swing.GroupLayout.PREFERRED_SIZE, 68, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
         );
@@ -232,7 +240,7 @@ public class SuaSach extends javax.swing.JFrame {
             .addGroup(jPanel14Layout.createSequentialGroup()
                 .addGroup(jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jbThemanh)
-                    .addComponent(ttfThemanh, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(ttfThemanh, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(0, 6, Short.MAX_VALUE))
         );
 
@@ -248,34 +256,34 @@ public class SuaSach extends javax.swing.JFrame {
                 .addGap(47, 47, 47)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addComponent(jPanel9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addGap(37, 37, 37)
-                                .addComponent(lbTitle))
-                            .addGroup(layout.createSequentialGroup()
-                                .addGap(18, 18, 18)
-                                .addComponent(jPanel8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(jPanel11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jPanel12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(18, 18, 18)
-                        .addComponent(jPanel10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(jPanel13, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(jPanel14, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                        .addGap(0, 0, Short.MAX_VALUE)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
-                                .addComponent(jPanel12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(jPanel9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addGap(37, 37, 37)
+                                        .addComponent(lbTitle))
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addGap(18, 18, 18)
+                                        .addComponent(jPanel8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                            .addGroup(layout.createSequentialGroup()
+                                .addComponent(jPanel11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(18, 18, 18)
-                                .addComponent(jPanel13, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(18, 18, 18))
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                .addComponent(jbXacnhan)
-                                .addGap(75, 75, 75)))
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addGap(16, 16, 16)
-                                .addComponent(jbHuy, javax.swing.GroupLayout.PREFERRED_SIZE, 105, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addComponent(jPanel14, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addContainerGap(50, Short.MAX_VALUE))
+                                .addComponent(jPanel10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                .addGap(65, 65, 65))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addGap(0, 0, Short.MAX_VALUE)
+                .addComponent(jbXacnhan)
+                .addGap(86, 86, 86)
+                .addComponent(jbHuy, javax.swing.GroupLayout.PREFERRED_SIZE, 105, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(158, 158, 158))
         );
 
         layout.linkSize(javax.swing.SwingConstants.HORIZONTAL, new java.awt.Component[] {jbHuy, jbXacnhan});
@@ -295,14 +303,18 @@ public class SuaSach extends javax.swing.JFrame {
                     .addComponent(jPanel10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jPanel12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jPanel14, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jPanel13, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(20, 20, 20)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jbHuy)
-                    .addComponent(jbXacnhan))
-                .addContainerGap(38, Short.MAX_VALUE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jPanel12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jPanel13, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(0, 0, Short.MAX_VALUE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(jPanel14, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(27, 27, 27)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jbHuy)
+                            .addComponent(jbXacnhan))
+                        .addContainerGap(32, Short.MAX_VALUE))))
         );
 
         pack();
@@ -316,16 +328,6 @@ public class SuaSach extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_ttfTensachActionPerformed
 
-    private void jbThemanhActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbThemanhActionPerformed
-        // TODO add your handling code here:
-        FileDialog fd = new FileDialog(this);
-        fd.setVisible(true);
-        String filename = fd.getFile();
-        if (filename != null) {
-            ttfThemanh.setText(filename);
-        }
-    }//GEN-LAST:event_jbThemanhActionPerformed
-
     private void jbXacnhanActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbXacnhanActionPerformed
         // TODO add your handling code here:
         if (checkRong()) {
@@ -338,9 +340,9 @@ public class SuaSach extends javax.swing.JFrame {
             String tacgia = ttfTacgia.getText();
             String tensach = ttfTensach.getText();
             try {
-                db.suaSach(url,kichthuoc,masach,nhaxb,sotrang,tacgia,tensach);
+                db.suaSach(url, kichthuoc, masach, nhaxb, sotrang, tacgia, tensach);
             } catch (Exception e) {
-                JOptionPane.showMessageDialog(null,"Sửa Thất Bại");
+                JOptionPane.showMessageDialog(null, "Sửa Thất Bại");
             }
         }
         this.dispose();
@@ -350,17 +352,33 @@ public class SuaSach extends javax.swing.JFrame {
         // TODO add your handling code here:
         this.dispose();
     }//GEN-LAST:event_jbHuyActionPerformed
-    public void setTextField(String url,String kichthuoc,String masach,String nhaxb,String sotrang,String tacgia,String tensach){   
-           ttfKichthuoc.setText(kichthuoc);
-          ttfMaSach.setText(masach);
-           ttfNhaxuatban.setText(nhaxb);
-           ttfSotrang.setText(sotrang);
-          ttfTacgia.setText(tacgia);
-           ttfTensach.setText(tensach);
-           ttfThemanh.setText(url);
+
+    private void jbThemanhActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jbThemanhActionPerformed
+        // TODO add your handling code here:
+      
+        FileDialog fd = new FileDialog(this);
+        fd.setVisible(true);
+        String filename = fd.getDirectory()+ fd.getFile();
+        if (filename != null) {
+            ttfThemanh.setText(filename);
+        }
+    }//GEN-LAST:event_jbThemanhActionPerformed
+
+    private void ttfThemanhActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ttfThemanhActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_ttfThemanhActionPerformed
+    public void setTextField(String url, String kichthuoc, String masach, String nhaxb, String sotrang, String tacgia, String tensach) {
+        ttfKichthuoc.setText(kichthuoc);
+        ttfMaSach.setText(masach);
+        ttfNhaxuatban.setText(nhaxb);
+        ttfSotrang.setText(sotrang);
+        ttfTacgia.setText(tacgia);
+        ttfTensach.setText(tensach);
+        ttfThemanh.setText(url);
     }
+
     private boolean checkRong() {
-        if (ttfThemanh.getText().equals("") || ttfKichthuoc.getText().equals("") || ttfMaSach.getText().equals(null) || ttfNhaxuatban.getText().equals("") || ttfSotrang.getText().equals("")
+        if (ttfThemanh.getText().equals("") || ttfKichthuoc.getText().equals("") || ttfNhaxuatban.getText().equals("") || ttfSotrang.getText().equals("")
                 || ttfTacgia.getText().equals("") || ttfTensach.getText().equals("")) {
             return false;
         } else {
@@ -373,12 +391,13 @@ public class SuaSach extends javax.swing.JFrame {
             String tensach = ttfTensach.getText();
             try {
                 Integer.parseInt(ttfSotrang.getText());
+
             } catch (Exception e) {
                 JOptionPane.showMessageDialog(null, "Bạn cần nhập đúng số trang ", "Lỗi", HEIGHT);
+
             }
             return true;
         }
-
     }
     /**
      * @param args the command line arguments

@@ -5,6 +5,11 @@
  */
 package qlch.Model.Sach;
 
+import java.io.BufferedInputStream;
+import java.io.BufferedOutputStream;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -122,62 +127,93 @@ public class SachDB {
         }
     }
 
-    public void themSach(String url, String kichthuoc, String masach, String sotrang, String nhaxb, String tacgia, String tensach) throws SQLException {
+    public void themSach(String url, String kichthuoc, String masach, String sotrang, String nhaxb, String tacgia, String tensach, String giatien) throws SQLException {
         conn = DBConnect.getConnection();
         String query = null;
-        try {
-             query = "insert into sach values ( '" + masach + "','"
-                    + tensach + "','"
-                    + tacgia + "','"
-                    + nhaxb + "','"
-                    + kichthuoc + "','"
-                    + sotrang + "')";
+        String fileName = saveImage(url);
+        if (fileName != null) {
+            try {
+                query = "insert into sach values ( '" + masach + "','"
+                        + tensach + "','"
+                        + tacgia + "','"
+                        + nhaxb + "','"
+                        + kichthuoc + "','"
+                        + sotrang + "')";
 
-            String query2 = "insert into sanpham values ( '" + masach + "','"
-                    + 0 + "','"
-                    + 0 + "','"
-                    + url + "')";
-            statement = conn.prepareStatement(query);
-            statement.execute();
-            statement = conn.prepareStatement(query2);
-            statement.execute();
-        } catch (SQLException ex) {
-            JOptionPane.showMessageDialog(null, ex.toString() + "\n error coming from returning all customer DB Operation"+query);
-        } finally {
-            conn.close();
-            statement.close();
+                String query2 = "insert into sanpham values ( '" + masach + "','"
+                        + giatien + "','"
+                        + 0 + "','"
+                        + fileName + "')";
+                statement = conn.prepareStatement(query);
+                statement.execute();
+                statement = conn.prepareStatement(query2);
+                statement.execute();
+            } catch (SQLException ex) {
+                JOptionPane.showMessageDialog(null, ex.toString() + "\n error coming from returning all customer DB Operation" + query);
+            } finally {
+                conn.close();
+                statement.close();
+            }
+        }else{
+        JOptionPane.showMessageDialog(null, "Sửa Thất Bại");
         }
+    }
+
+    public String saveImage(String url) {
+        String result = null;
+
+        try {
+            //Lấy ảnh từ đường dẫn hiện tại
+            File fileRead = new File(url);
+            BufferedInputStream input = new BufferedInputStream(new FileInputStream(fileRead));
+            byte[] data = new byte[(int) fileRead.length()];
+            input.read(data, 0, data.length);
+
+            //Save ảnh vao đường dẫn project
+            File fileWrite = new File(System.getProperty("user.dir") + "/src/qlch/Image/Sach/" + fileRead.getName());
+            BufferedOutputStream output = new BufferedOutputStream(new FileOutputStream(fileWrite));
+            output.write(data, 0, data.length);
+            result = fileRead.getName();
+        } catch (Exception e) {
+            result = null;
+        }
+        return result;
     }
 
     public void suaSach(String url, String kichthuoc, String masach, String nhaxb, String sotrang, String tacgia, String tensach) throws SQLException {
 
         conn = DBConnect.getConnection();
-        try {
-            String query = "update  sach set "
-                    + " TenSach = '" + tensach + "',"
-                    + " TacGia = '" + tacgia + "',"
-                    + " NhaXB = '" + nhaxb + "',"
-                    + " KichThuoc = '" + kichthuoc + "',"
-                    + " SoTrang = '" + sotrang + "'"
-                    + " where MaSach = '" + masach + "'";
+        String fileName = saveImage(url);
+        if (fileName != null) {
+            try {
+                String query = "update  sach set "
+                        + " TenSach = '" + tensach + "',"
+                        + " TacGia = '" + tacgia + "',"
+                        + " NhaXB = '" + nhaxb + "',"
+                        + " KichThuoc = '" + kichthuoc + "',"
+                        + " SoTrang = '" + sotrang + "'"
+                        + " where MaSach = '" + masach + "'";
 
-            String query2 = "update  sanpham set "
-                    + " HinhAnh = '" + url + "'"
-                    + " where MaSach = '" + masach + "'";
-            statement = conn.prepareStatement(query);
-            statement.execute();
-            statement = conn.prepareStatement(query2);
-            statement.execute();
-        } catch (SQLException ex) {
-            JOptionPane.showMessageDialog(null, ex.toString() + "\n error coming from returning all customer DB Operation");
-        } finally {
-            conn.close();
-            statement.close();
+                String query2 = "update  sanpham set "
+                        + " HinhAnh = '" + fileName + "'"
+                        + " where MaSach = '" + masach + "'";
+                statement = conn.prepareStatement(query);
+                statement.execute();
+                statement = conn.prepareStatement(query2);
+                statement.execute();
+            } catch (SQLException ex) {
+                JOptionPane.showMessageDialog(null, ex.toString() + "\n error coming from returning all customer DB Operation");
+            } finally {
+                conn.close();
+                statement.close();
+            }
+            JOptionPane.showMessageDialog(null, "Sửa Thành Công");
+        }else{
+        JOptionPane.showMessageDialog(null, "Sửa Thất Bại");
         }
-        JOptionPane.showMessageDialog(null, "Sửa Thành Công");
     }
 
-    public int maSP()  {
+    public int maSP() {
         conn = DBConnect.getConnection();
         int masach = -1;
         try {
@@ -196,7 +232,7 @@ public class SachDB {
                 conn.close();
                 statement.close();
             } catch (SQLException ex) {
-             
+
             }
         }
         return masach;

@@ -17,7 +17,7 @@ public class DBConnect {
         Connection cons = null;
         String namedatabase ="quanlycuahangsach";
         String taikhoan  = "root";
-        String matkhau = "123456";
+        String matkhau = "password";
         try {
             Class.forName("com.mysql.jdbc.Driver");
             cons = DriverManager.getConnection("jdbc:mysql://localhost:3306/"+namedatabase+"?useUnicode=true&characterEncoding=UTF-8", ""+taikhoan+"",""+matkhau+"");
